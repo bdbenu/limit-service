@@ -1,15 +1,15 @@
 package com.bd.benu.model;
 
-public class limitServiceConfiguration {
+public class LimitServiceConfiguration {
 
 	private int minimum;
 	private int maximum;
 	
-	public limitServiceConfiguration() {
+	public LimitServiceConfiguration() {
 		super();
 	}
 
-	public limitServiceConfiguration(int minimum, int maximum) {
+	public LimitServiceConfiguration(int minimum, int maximum) {
 		super();
 		this.minimum = minimum;
 		this.maximum = maximum;
